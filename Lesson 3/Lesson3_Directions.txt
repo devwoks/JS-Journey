@@ -1,0 +1,20 @@
+Lesson 3: Adventure Game Choice!
+
+This lesson will use if/else statements to create a simple text-based adventure game. The player will make choices that affect the story's outcome.
+
+Concept: The player starts at a crossroads. They can choose to go left, right, or straight. Each path leads to a different outcome (success, failure, or another choice).
+
+Variables:
+
+choice (String): The player's choice ("left", "right", "straight").
+outcome (String): The result of the player's choice (e.g., "You found treasure!", "You were eaten by a grue!").
+HTML Structure:
+
+A paragraph explaining the scenario (the crossroads).
+Three buttons: "Left", "Right", "Straight". Give each a unique ID.
+A <p> tag with id="result" to display the outcome.
+JavaScript Logic:
+
+Event Listeners: Attach event listeners to each button. Each listener should set the choice variable based on the button clicked.
+Conditional Statements: Use a series of if/else if/else statements to determine the outcome based on the choice.
+Output: Display the outcome in the <p> tag with id="result.
